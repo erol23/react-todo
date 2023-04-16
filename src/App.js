@@ -1,10 +1,9 @@
-import Todo from "./components/Todo";
+import AppRouter from "./router/AppRouter";
 
 function App() {
   return (
     <div>
-      <h1>My Todos</h1>
-      <Todo text="Learn React" />
+      <AppRouter />
     </div>
   );
 }
